@@ -1,6 +1,6 @@
-from flask import Flask, request, jsonify, render_template
-import requests
-from bs4 import BeautifulSoup
+from flask import Flask, request, jsonify, render_template # type: ignore
+import requests # type: ignore
+from bs4 import BeautifulSoup # type: ignore
 
 app = Flask(__name__)
 
